@@ -477,6 +477,8 @@ iframe {
     flex-basis: 320px;
     flex-shrink: 1;
     flex-grow: 1; }
+    .main__button:disabled {
+      cursor: not-allowed; }
     .main__button_easy {
       background-color: #d8e69f; }
     .main__button_medium {
