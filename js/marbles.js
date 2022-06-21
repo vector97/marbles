@@ -49,9 +49,9 @@ console.log('%c Игра Марблы', background);
         arbiter(getNumber, botNumber);
         console.log(result);
 
-        if (result.player === 0) {
+        if (result.player < 1) {
           alert('У вас закончились шарики. К сожалению, вы проиграли!');
-        } else if (result.computer === 0) {
+        } else if (result.computer < 1) {
           alert('У бота закончились шарики. Поздравляю, вы победили!');
         } else {
           start();
