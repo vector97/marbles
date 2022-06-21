@@ -1,0 +1,36 @@
+.main {
+  padding: 50px 0;
+
+  &__title {
+    margin-bottom: 25px;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  &__button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    flex-basis: 320px;
+    flex-shrink: 1;
+    flex-grow: 1;
+
+    &_easy {
+      background-color: #d8e69f;
+    }
+
+    &_medium {
+      background-color: #b2c2d7;
+    }
+
+    &_hard {
+      background-color: #822342;
+    }
+  }
+}
